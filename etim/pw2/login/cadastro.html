@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cadrasto de cliente </title>
+    <link rel="shortcut icon" href="img/cadastro.ico" type="image/x-icon">
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+    <div class="formContainer">
+        <form action="cadastro.php" method="post" class="formCadastro">
+            <h2> Crie sua conta aqui!!! </h2>
+
+            <label for="name"> Nome: </label>
+            <input type="text" name="name" class="inputNome">
+            <label for="sobrenome"> Sobrenome: </label>
+            <input type="text" name="sobrenome" class="inputSobrenome">
+            <label for="email"> E-mail: </label>
+            <input type="email" name="email" class="inputEmail">
+            
+            <div class="alinhado">
+                <div>
+                    <label for="cpf"> CPF: </label>
+                    <input type="number" name="cpf">
+                </div>
+                <div>
+                    <label for="tel"> Telefone: </label>
+                    <input type="number" name="tel">
+                </div>
+            </div>
+
+            <div class="alinhado">
+                <div>
+                    <label for="senha"> Senha: </label>
+                    <input type="password" name="senha">
+                </div>
+                <div>
+                    <label for="confirme"> Confirme sua senha: </label>
+                    <input type="password" name="confirme">
+                </div>
+            </div>
+
+            <button type="submit"> CRIAR CONTA </button>
+        </form>
+    </div>
+</body>
+</html>
